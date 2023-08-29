@@ -1446,12 +1446,13 @@ textarea,
 
 .sidebar-1tnWFu {
     width: var(--channels-width);
-    background: rgba(0, 0, 0, calc(var(--background-shading) * .3))
+    /* background: #000000; */
+    border-radius: 10px;
+    background: rgba(0, 0, 0, calc(var(--background-shading) * .6))
 }
 
 .platform-win .sidebar-1tnWFu {
-    border-radius: 4px;
-    background: rgba(0, 0, 0, calc(var(--background-shading) * .6))
+    border-radius: 10px;
 }
 
 .container-1NXEtd {
