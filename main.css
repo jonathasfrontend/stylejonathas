@@ -1448,7 +1448,8 @@ textarea,
     width: var(--channels-width);
     /* background: #000000; */
     border-radius: 10px;
-    background: rgba(0, 0, 0, calc(var(--background-shading) * .6))
+    background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+    overflow: hidden;
 }
 
 .platform-win .sidebar-1tnWFu {
